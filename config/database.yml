@@ -1,0 +1,9 @@
+default: &default
+  host: localhost
+  user: crimsonknight
+  password: ""
+  adapter: postgres
+
+development:
+  <<: *default
+  db: jennifer_json_test_development
